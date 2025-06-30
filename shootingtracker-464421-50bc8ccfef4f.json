@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "shootingtracker-464421",
+  "private_key_id": "50bc8ccfef4fc37e2cfbaace922c8ccf48d5c77a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfCyYmumaFcQJs\ns16TdG+eD8cFoZ0W5JmMG48ETyPm5EjcN5Zsrfn3UwdCO8CmkthEJDON6pfHfiJX\nSrps4wCySEQtkwhZ5HbdewfTFzwHjY1ZH0jmw3VaTMwEczZgGJIMAN6/FSrUFivb\nGqOpi8eEzhdYHEBPt2Tg9NUSP+rp2MZzCzsmGbjMUrFa+peRlasK4/0c+h6hAHr0\nrgY69uQbKIbZXz8gNhkNOasXVe87dYFLLHtbXbY7oXNGQNeR/Jhu/ZsizwWzi92d\nvSIr732VXQURLiuVmyBAFy2LtbaUI8IdhSTut4EHpbR9UAexBvttFQrNnoQKYgWJ\nzY8fLV27AgMBAAECggEAH5AI3Dq1ydmpj4TxSfYbiJS8/IMcN8TaLBH0CfjiuRmo\n0/s8IQlNyCV0FVLiYqxVuwAsMwfRY0fG7Ofpo15RbxAkZ578U0qhxEZ8QQolYaJX\n4M3ym8lCas8+1cs/iUaXBUbO7cD3pOtZfLwGqskQqWx0+YlxweA1ZudvuZVxu0J3\n1yCvPXA8wOU00Udk3VgZ41ydLvDqixQnpkGopAvF0RKMeLa3eoCZeO2fR/28tnZ2\nC1bzCTDb2eEwBP0I/cvBmv9noVHrsYA/7P4Rcl2Ajn/HE/+13uwBVFajoI4M9y7h\nbom/XwavultziWekMv6fgEkJUTYB2vJ2Y+vfYp2j0QKBgQDMfjK6Rsc9oxo1QepH\ngtNTYjiLb0mrShJUQ2K3RqI1Ri0QvWoFglW2D0CuFivjxS/ftp0u2pt9lT5OB2ga\nmQm4JHDgb5BOoKPAllB7p/Kk6yM3GLSqPiWSlAac1j1oNFgj55FCi+2RweVY7T4D\n79LrkiGTo8mHq575aEDwCcPUdQKBgQDHGloDA/F6eDDGS0qIanbGIbYuLHyTYkse\nz6jJO39HtvBAOybw7BiaO4UrCBKbnjSxkSeZqI9rBkN1HdY4GCbP8HWb3KrVtlt3\n5tRBGV1az3W6hymYCythz6cQWcq1pcCpeyK7b++iA9QpPFCTY+2WE7T1moMVJvkw\ndW8cOE9jbwKBgFNtNOLcF1LlJL8PijXsgKynCKySFXsFOB8acr6U2X5kh+QpcoSW\n3MLuzBN5xiQhgVuCk/PWidMdPRL2YJlhUB7I9ygJO9VoIgZjDKi2Jv7zUyWaNbKy\nsf9v1pbLrLfDiyXyxkdg8OYjNZ8nAsL2Z5Vlw78I9iIceToFN2D2iuc1AoGAF2k3\n0Eb0a+waABb2SpgKIz3vh/pfI41ZO+Q6+n5uduZB1aue5pE8S1ZYUDkAxx+RHpfs\nyhqR0onIAMtjVvEwDx89FPibdcmdc7nGl2j+GyFtvGMMNv6JOVULVdbZCQbWYpdB\n/DwrNyewGLEo4EvNsenbS03BwAj3IAWO7QiJ/S0CgYB9RzJxgK74sY+N6vcXJNIu\nrTqNJEoPItUJVKB1iTeNRqUkYeU4mQKVVNoU5f8us2YLWoqmWgFyZD0iGOwzMgKP\nzRpsV1PWw3AHc3P1Ts8VrYfvfOyWiO1yo8xZFhZyvwVsYG764mbKALtlfn4re5gD\neM0y/iDhVB/XgT7saljrtg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "shooting-tracker-service@shootingtracker-464421.iam.gserviceaccount.com",
+  "client_id": "107346791849694869782",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shooting-tracker-service%40shootingtracker-464421.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
