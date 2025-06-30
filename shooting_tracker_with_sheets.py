@@ -9,7 +9,12 @@ st.set_page_config(page_title="Shooting Tracker", layout="centered")
 st.title("🏀 Guy's 3PT Shooting Tracker – גרסה מחוברת ל-Google Sheets")
 
 # הגדרות API של Google Sheets
-gc = gspread.service_account(filename="credentials.json")
+import json
+from google.oauth2.service_account import Credentials
+
+creds_dict = json.loads(st.secrets["GOOGLE_SHEETS_CREDENTIALS"])
+credentials = Credentials.from_service_account_info(creds_dict)
+gc = gspread.authorize(credentials)
 sheet = gc.open_by_url("https://docs.google.com/spreadsheets/d/1-9PCoym7x4oDFcr1tvNikePrTzsMy6vP/edit").sheet1
 
 st.write("מלא את תוצאות האימון היומי:")
