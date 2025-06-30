@@ -3,16 +3,13 @@ import streamlit as st
 import pandas as pd
 import gspread
 from datetime import date
-from oauth2client.service_account import ServiceAccountCredentials
 
 # כותרת ראשית
 st.set_page_config(page_title="Shooting Tracker", layout="centered")
 st.title("🏀 Guy's 3PT Shooting Tracker – גרסה מחוברת ל-Google Sheets")
 
 # הגדרות API של Google Sheets
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-credentials = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
-gc = gspread.authorize(credentials)
+gc = gspread.service_account(filename="credentials.json")
 sheet = gc.open_by_url("https://docs.google.com/spreadsheets/d/1-9PCoym7x4oDFcr1tvNikePrTzsMy6vP/edit").sheet1
 
 st.write("מלא את תוצאות האימון היומי:")
